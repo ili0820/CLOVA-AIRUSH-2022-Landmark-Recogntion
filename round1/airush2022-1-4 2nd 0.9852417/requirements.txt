@@ -1,0 +1,10 @@
+#nsml: registry.navercorp.com/nsml/airush2020:pytorch1.5
+timm
+ptflops
+torch>=1.11
+pillow==7.2.0
+torchvision
+tqdm
+albumentations==0.4.6
+transformers
+wandb
