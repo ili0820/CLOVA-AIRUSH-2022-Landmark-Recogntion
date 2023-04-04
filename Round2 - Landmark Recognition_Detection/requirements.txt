@@ -1,0 +1,28 @@
+#nsml: fleance/detectionn:1
+
+
+albumentations>=0.3.2 --no-binary qudida,albumentations
+pillow==7.2.0
+pandas
+cython
+numpy
+opencv-python>=4.1.1
+docutils==0.16.0
+myst-parser
+
+
+
+sphinx==4.0.2
+sphinx-copybutton
+sphinx_markdown_tables
+sphinx_rtd_theme==0.5.2
+
+matplotlib
+numpy
+pycocotools
+six
+terminaltables
+
+tqdm
+ensemble_boxes
+gitpython
