@@ -14,6 +14,7 @@ Test
 - 12,179 images
 
 Label
+- 618 classes
 - each image has labels with fields given as follow
 
 Image ID | Class ID | Original Image ID | Original Class ID | Image File Name
