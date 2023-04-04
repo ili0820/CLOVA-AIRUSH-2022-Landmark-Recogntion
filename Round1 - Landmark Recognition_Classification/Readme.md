@@ -45,6 +45,6 @@ Restrictions
 
 Result
 ----
-2nd Place with 0.9852417 GAP
+2nd Place with 0.9852417 GAP 455.59 FLOPS
 
 Used [Tinynet](https://arxiv.org/abs/2010.14819v2) and [Arcfaceloss](https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf)
