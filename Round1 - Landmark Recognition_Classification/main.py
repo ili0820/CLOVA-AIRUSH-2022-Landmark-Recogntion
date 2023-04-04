@@ -220,18 +220,7 @@ def bind_nsml(model, optimizer,scheduler_cosine,scheduler_warmup, cuda):
         if 'scheduler_warmup' in state:
             scheduler_warmup.load_state_dict(state['scheduler_warmup'])
         print('Model loaded')
-# def bind_nsml(model, scheduler_cosine,scheduler_warmup, cuda):
-#     def load(model_dir, **kwargs):
-#         device = torch.device('cpu')
-#         if cuda:
-#             device = torch.device('cuda')
-#         state = torch.load(os.path.join(model_dir, 'model.pth'), map_location=device)
-#         model.load_state_dict(state['model'])
-#         if 'scheduler_cosine' in state:
-#             scheduler_cosine.load_state_dict(state['scheduler_cosine'])
-#         if 'scheduler_warmup' in state:
-#             scheduler_warmup.load_state_dict(state['scheduler_warmup'])
-#         print('Model loaded')
+
 
     def save(model_dir, **kwargs):
         os.makedirs(model_dir, exist_ok=True)
