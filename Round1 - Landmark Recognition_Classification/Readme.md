@@ -1,5 +1,4 @@
 # Landmark Recognition - Classification
-----
 
 Task
 ----
