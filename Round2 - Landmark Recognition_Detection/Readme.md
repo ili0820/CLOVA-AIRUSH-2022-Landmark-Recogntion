@@ -8,12 +8,13 @@ one image contains one landmark.
 Dataset
 ----
 Train
-- 100,207 images with maximum 2560x1440 size
+- 16,290 images with maximum 2705x2705 size 
 
 Test
 - 12,179 images
 
 Label
+- 143 classes
 - each image has labels with fields given as follow
 
 image_idx|class_idx|roi_x0|roi_y0|roi_x1|roi_y1|image_file_name|width|height|center_x|center_y|img_width|img_height
